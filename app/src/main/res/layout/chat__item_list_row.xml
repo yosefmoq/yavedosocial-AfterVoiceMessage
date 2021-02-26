@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:include="http://schemas.android.com/tools"
+    android:background="@drawable/blogs_list_row_selector"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:id="@+id/leftItem"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusableInTouchMode="false"
+            android:gravity="bottom"
+            android:orientation="horizontal">
+
+            <com.mikhaellopez.circularimageview.CircularImageView
+                android:id="@+id/left_fromUser"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                android:layout_marginRight="10dp"
+                android:minWidth="16dp"
+                android:minHeight="16dp"
+                android:src="@drawable/profile_default_photo"
+                app:civ_border="true"
+                app:civ_border_color="@color/gray_bg"
+                app:civ_border_width="1dp"
+                app:civ_shadow="false"
+                app:civ_shadow_radius="0" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ru.ifsoft.network.view.ResizableImageView
+                        android:id="@+id/left_img"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="100dp"
+                        android:adjustViewBounds="true"
+                        android:maxHeight="480dp"
+                        android:src="@drawable/img_loading"
+                        android:visibility="visible"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <github.ankushsachdeva.emojicon.EmojiconTextView
+                        android:id="@+id/left_message"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:background="@drawable/chat_left_item"
+                        android:singleLine="false"
+                        android:text="Example message"
+                        android:textColor="#2b3135"
+                        android:textSize="20sp"
+                        android:textStyle="normal"
+                        android:visibility="visible"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/left_img" />
+
+                    <ImageView
+                        android:id="@+id/left_play_video"
+                        android:layout_width="42dp"
+                        android:layout_height="42dp"
+                        app:layout_constraintBottom_toBottomOf="@+id/left_img"
+                        app:layout_constraintEnd_toEndOf="@+id/left_img"
+                        app:layout_constraintStart_toStartOf="@+id/left_img"
+                        app:layout_constraintTop_toTopOf="@+id/left_img"
+                        app:srcCompat="@drawable/video_play" />
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:id="@+id/clSoundLeft"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:visibility="visible"
+                        app:layout_constraintStart_toStartOf="@+id/left_message"
+                        app:layout_constraintTop_toBottomOf="@+id/left_message">
+
+                        <include layout="@layout/voiceplayerview" />
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <TextView
+                    android:id="@+id/divider"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingLeft="52dp">
+
+            <TextView
+                android:id="@+id/left_timeAgo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="sans-serif-light"
+                android:singleLine="true"
+                android:text="4m ago"
+                android:textColor="@color/gray_text"
+                android:textSize="14dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/rightItem"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="bottom"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0" />
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ru.ifsoft.network.view.ResizableImageView
+                        android:id="@+id/right_img"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:adjustViewBounds="true"
+                        android:maxHeight="480dp"
+                        android:src="@drawable/img_loading"
+                        android:visibility="visible"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <ImageView
+                        android:id="@+id/right_play_video"
+                        android:layout_width="42dp"
+                        android:layout_height="42dp"
+                        app:layout_constraintBottom_toBottomOf="@+id/right_img"
+                        app:layout_constraintEnd_toEndOf="@+id/right_img"
+                        app:layout_constraintStart_toStartOf="@+id/right_img"
+                        app:layout_constraintTop_toTopOf="@+id/right_img"
+                        app:srcCompat="@drawable/video_play" />
+
+                    <github.ankushsachdeva.emojicon.EmojiconTextView
+                        android:id="@+id/right_message"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:background="@drawable/chat_right_item"
+                        android:singleLine="false"
+                        android:text="Example message"
+                        android:textColor="#ffffff"
+                        android:textSize="20sp"
+                        android:textStyle="normal"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/right_img" />
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:id="@+id/clSoundRight"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:layout_constraintEnd_toEndOf="@+id/right_message"
+                        app:layout_constraintTop_toBottomOf="@+id/right_message">
+
+                        <include
+                            android:background="@drawable/chat_right_item"
+                            layout="@layout/voiceplayerview"/>
+                        <androidx.constraintlayout.widget.Guideline
+                            android:id="@+id/guideline6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            app:layout_constraintGuide_percent="0.23" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </LinearLayout>
+
+            <com.mikhaellopez.circularimageview.CircularImageView
+                android:id="@+id/right_fromUser"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                android:layout_marginLeft="10dp"
+                android:minWidth="16dp"
+                android:minHeight="16dp"
+                android:src="@drawable/profile_default_photo"
+                app:civ_border="true"
+                app:civ_border_color="@color/gray_bg"
+                app:civ_border_width="1dp"
+                app:civ_shadow="false"
+                app:civ_shadow_radius="0" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="right"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/right_timeAgo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="sans-serif-light"
+                android:singleLine="true"
+                android:text="4m ago"
+                android:textColor="@color/gray_text"
+                android:textSize="14dp" />
+
+            <ImageView
+                android:id="@+id/seenIcon"
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:layout_marginLeft="8dp"
+                android:src="@drawable/ic_seen"
+                android:tint="@color/dark_blue" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

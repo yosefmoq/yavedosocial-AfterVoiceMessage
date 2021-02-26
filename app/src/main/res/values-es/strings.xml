@@ -1,0 +1,929 @@
+<?xml version="1.0" encoding="UTF-8"?><resources>
+
+    <!-- Edit the following data -->
+
+    <string name="app_name">Yavedo</string>
+    <string name="app_version">1.0</string>
+    <string name="app_year">2019</string>
+    <string name="app_copyright">yavedo.com</string>
+    <string name="app_email">support\@yavedo.com</string>
+    <string name="app_site">http://yavedo.com</string>
+
+    <!-- Facebook App Id -->
+
+    <string name="facebook_app_id">4565647564756787568</string>
+
+    <!-- fb + Facebook App Id, example (you facebook app id: 123456): fb123456 -->
+
+    <string name="fb_login_protocol_scheme">fb4565647564756787568</string>
+
+    <!-- AdMob Banner Id -->
+
+    <!-- DEFAULT Ad UNIT ID: ca-app-pub-3940256099942544/6300978111 -->
+
+    <string name="banner_ad_unit_id">ca-app-pub-6852245709281315/6399084711</string>
+
+    <!-- AdMob App Id -->
+
+    <!-- DEFAULT Admob APP ID: ca-app-pub-3940256099942544~3347511713 -->
+
+    <string name="admob_app_id">ca-app-pub-6852245709281315~2870601921</string>
+
+<!--    <string name="admob_app_id">ca-app-pub-3940256099942544~3347511713</string>-->
+
+    <!-- AdMob Rewarded Ad Id -->
+
+    <!-- DEFAULT Rewarded Ad ID: ca-app-pub-3940256099942544/5224354917 -->
+
+    <string name="rewarded_ad_unit_id">ca-app-pub-6852245709281315/7091305813</string>
+<!--    <string name="rewarded_ad_unit_id">ca-app-pub-3940256099942544/5224354917</string>-->
+
+
+    <string name="action_login">Iniciar sesión</string>
+    <string name="action_signup">Regístrate</string>
+    <string name="action_logout">Cerrar sesión</string>
+    <string name="action_settings">Ajustes</string>
+    <string name="action_continue">Continuar</string>
+    <string name="action_unblock">Desbloquear</string>
+    <string name="action_block">Bloquear</string>
+    <string name="action_about">Acerca de</string>
+    <string name="action_ok">Aceptar</string>
+    <string name="action_yes">Sí</string>
+    <string name="action_no">No</string>
+    <string name="action_copy">Copiar</string>
+    <string name="action_save">Guardar</string>
+    <string name="action_send">Enviar</string>
+    <string name="action_open">Abrir</string>
+    <string name="action_edit">Editar</string>
+    <string name="action_reply">Responder</string>
+    <string name="action_refresh">Actualizar</string>
+    <string name="action_report">Reportar</string>
+    <string name="action_remove">Eliminar</string>
+    <string name="action_remove_chat">Eliminar chat</string>
+    <string name="action_deactivate">Desactivar</string>
+    <string name="action_create">Crear</string>
+    <string name="action_cancel">Cancelar</string>
+    <string name="action_close">Cerrar</string>
+    <string name="action_more">Cargar más</string>
+    <string name="action_post">Publicar</string>
+    <string name="action_search">Buscar</string>
+    <string name="action_retry">Reintentar</string>
+    <string name="action_turn_on">Activar</string>
+    <string name="action_turn_off">Desactivar</string>
+    <string name="action_select_birth">Fecha de nacimiento</string>
+    <string name="action_camera">Cámara</string>
+    <string name="action_gallery">Elegir de la galería</string>
+    <string name="action_copy_url">Copiar enlace</string>
+    <string name="action_open_url">Abrir en un navegador</string>
+    <string name="settings_allow_comments">Permitir comentarios en mis publicaciones</string>
+    <string name="settings_allow_messages">Recibir mensajes de cualquier persona</string>
+    <string name="settings_allow_messages_summary">Podrás recibir mensajes directos de cualquier usuario incluso si el usuario no es tu amigo.</string>
+    <string name="action_share">Compartir</string>
+    <string name="action_share_on_wall">En mi muro</string>
+
+    <string name="action_follow">Seguir</string>
+    <string name="action_unfollow">Dejar de seguir</string>
+    <string name="action_new">Nueva publicación</string>
+    <string name="action_profile_edit_photo">Editar foto</string>
+    <string name="action_profile_edit_cover">Editar portada</string>
+    <string name="action_profile_edit">Editar</string>
+
+    <string name="action_login_with_facebook">Iniciar sesión con Facebook</string>
+    <string name="action_signup_with_facebook">Regístrate con Facebook</string>
+    <string name="action_connect_with_facebook">Conéctate con Facebook</string>
+    <string name="action_remove_connection">Eliminar conexión</string>
+    <string name="action_regular_signup">Volver al formulario de registro regular</string>
+    <string name="action_forgot_password">¿Olvidaste tu contraseña?</string>
+
+    <string name="label_profile_report_0">Correo no deseado</string>
+    <string name="label_profile_report_1">Discurso de odio o violencia</string>
+    <string name="label_profile_report_2">Desnudos o pornografía</string>
+    <string name="label_profile_report_3">Perfil falso</string>
+    <string name="label_profile_report_4">Piratería</string>
+
+    <string name="label_sex_undefined">Género no establecido</string>
+    <string name="label_sex_male">Género masculino</string>
+    <string name="label_sex_female">Género femenino</string>
+
+    <string name="placeholder_password">Contraseña</string>
+    <string name="placeholder_login">Nombre de usuario</string>
+    <string name="placeholder_fullname">Nombre completo</string>
+    <string name="placeholder_location">Ubicación</string>
+    <string name="placeholder_facebook_page">Página de Facebook</string>
+    <string name="placeholder_instagram_page">Página de Instagram</string>
+    <string name="placeholder_bio">Biografía</string>
+    <string name="placeholder_email">Correo electrónico</string>
+    <string name="placeholder_subject">Asunto</string>
+    <string name="placeholder_support_detail">¿Para qué nos estás contactando?</string>
+    <string name="placeholder_current_password">Contraseña actual</string>
+    <string name="placeholder_new_password">Nueva contraseña</string>
+    <string name="placeholder_item_category">Categoría</string>
+    <string name="placeholder_item_title">Título</string>
+    <string name="placeholder_item_login">Nombre de usuario, correo electrónico o teléfono</string>
+    <string name="placeholder_item_passw">Contraseña</string>
+    <string name="placeholder_item_url">Sitio web</string>
+    <string name="placeholder_item_description">Descripción</string>
+    <string name="placeholder_post">¿Qué estás pensando?</string>
+    <string name="placeholder_search">Buscar</string>
+    <string name="placeholder_comment">Escribe un comentario…</string>
+    <string name="placeholder_message">Escribe un mensaje…</string>
+    <string name="placeholder_repost">Tu comentario…</string>
+
+    <string name="msg_loading">Por favor, espera…</string>
+    <string name="msg_loading_2">Cargando... Por favor, espera…</string>
+    <string name="msg_network_error">Por favor revise su conexión a Internet</string>
+    <string name="msg_account_blocked">Esta cuenta está bloqueada por un moderador.</string>
+    <string name="msg_copied_to_clipboard">Copiado en el portapapeles.</string>
+    <string name="msg_enter_item">Por favor, escribe algo o adjunta una foto.</string>
+    <string name="msg_enter_msg">Por favor, escribe algo o adjunta una foto.</string>
+    <string name="msg_send_msg_error">No puedes enviar un mensaje al usuario.</string>
+    <string name="msg_item_posted">El elemento se ha publicado correctamente.</string>
+    <string name="msg_item_saved">El elemento se ha guardado correctamente.</string>
+    <string name="msg_password_changed">Contraseña cambiada correctamente</string>
+    <string name="msg_settings_saved">Ajustes guardados correctamente.</string>
+    <string name="msg_ticket_send_success">¡Tu solicitud ha sido aceptada! Recibirás una respuesta en el correo electrónico que se indica en la solicitud.</string>
+    <string name="msg_password_reset_link_sent">Se ha enviado un mensaje con un enlace para restablecer tu contraseña a tu correo electrónico.</string>
+    <string name="msg_no_such_user_in_bd">No existe el usuario en la base de datos</string>
+    <string name="msg_connect_to_facebook_success">¡Has vinculado correctamente la aplicación con tu cuenta de Facebook!</string>
+    <string name="msg_connect_to_facebook_error">Tu cuenta en Facebook ya está asociada con otra cuenta.</string>
+    <string name="msg_connect_to_facebook_removed">Conéctate con tu cuenta de Facebook eliminada.</string>
+    <string name="msg_comment_has_been_added">Se ha añadido un comentario.</string>
+    <string name="msg_chat_has_been_removed">El chat ha sido eliminado.</string>
+    <string name="msg_profile_removed_from_blacklist">El usuario ha sido eliminado de la lista de bloqueados.</string>
+    <string name="msg_profile_link_copied">Enlace de perfil copiado en el portapapeles.</string>
+    <string name="msg_post_link_copied">Enlace de publicación copiado en el portapapeles.</string>
+    <string name="msg_profile_added_to_blacklist">El usuario ha sido añadido a la lista de bloqueados.</string>
+    <string name="msg_comments_disabled">El usuario no quiere comentar sus publicaciones.</string>
+    <string name="msg_post_has_been_shared">Esta publicación se ha compartido con el feed de noticias de tus amigos.</string>
+    <string name="msg_post_has_been_already_shared">Ya compartiste esta publicación.</string>
+    <string name="msg_post_has_shared_error">No puedes volver a publicar tus publicaciones.</string>
+
+    <string name="error_signin">Nombre de usuario o contraseña incorrectos</string>
+    <string name="error_internet_connection">Sin conexión a Internet</string>
+    <string name="error_data_loading">Cuando se produzca un error de carga de datos. Verifica tu conexión de red.</string>
+    <string name="error_field_empty">Los campos obligatorios están vacíos</string>
+    <string name="error_wrong_format">Formato incorrecto</string>
+    <string name="error_small_password">Mínimo 6 caracteres</string>
+    <string name="error_small_username">Mínimo 5 caracteres</string>
+    <string name="error_small_fullname">Mínimo 2 caracteres</string>
+    <string name="error_login_taken">Este nombre de usuario ya está en uso</string>
+    <string name="error_email_taken">Un usuario con este correo ya está registrado</string>
+    <string name="error_password">Contraseña no válida.</string>
+    <string name="error_email">Correo electrónico no válido.</string>
+
+    <string name="label_gcm_like">Tienes nuevos Me gusta.</string>
+    <string name="label_gcm_comment">Tienes un nuevo comentario.</string>
+    <string name="label_gcm_follower">Tienes un nuevo seguidor.</string>
+    <string name="label_gcm_friend">Tienes un nuevo amigo.</string>
+    <string name="label_gcm_message">Tienes un nuevo mensaje.</string>
+    <string name="label_gcm_comment_reply">Tienes una nueva respuesta a un comentario.</string>
+
+    <string name="label_authorization_via_facebook">Autorización vía Facebook.</string>
+    <string name="label_account_connected_to_facebook">Conectado con Facebook</string>
+    <string name="label_account_connect_to_facebook">Conecta esta cuenta con tus cuentas de redes sociales</string>
+    <string name="label_empty_list">La lista está vacía.</string>
+
+    <string name="label_post_share">Compartir publicación</string>
+    <string name="label_post_share_desc">¿Quieres publicar esta publicación en tu muro?</string>
+    <string name="label_block">Bloquear</string>
+    <string name="label_block_msg">no podrás escribir comentarios en tus publicaciones ni enviar tus mensajes, y no verás notificaciones de</string>
+    <string name="label_delete">Eliminar</string>
+    <string name="label_delete_msg">¿Quieres eliminar esta publicación?</string>
+    <string name="label_delete_comment">¿Seguro que quieres eliminar este comentario?</string>
+    <string name="label_post_report_title">Reporte de abuso</string>
+    <string name="label_last_message_image">Imagen</string>
+    <string name="label_you_havent_items">Invita a amigos y familiares a usar Yavedo</string>
+    <string name="label_user_havent_items">Este usuario no tiene publicaciones.</string>
+    <string name="label_profile_reported">Perfil reportado.</string>
+    <string name="label_post_reported">Publicación reportada.</string>
+    <string name="label_select_img">Seleccionar imagen</string>
+    <string name="label_delete_img">¿Eliminar imagen?</string>
+    <string name="label_account_disabled">Cuenta bloqueada</string>
+    <string name="label_search_start_screen_msg">Busca personas por nombre de usuario, nombre o correo electrónico.</string>
+    <string name="label_search_results">Buscar personas:</string>
+    <string name="label_search_results_error">No se encontró ningún resultado</string>
+    <string name="label_likes_item">le gusta tu publicación.</string>
+    <string name="label_comment_added">añadió un nuevo comentario.</string>
+    <string name="label_comment_reply_added">respondió a tu comentario.</string>
+    <string name="label_follow_you">comenzó a seguirte.</string>
+    <string name="label_post_to_dialog_title">Compartir con</string>
+    <string name="label_post_to">A:</string>
+    <string name="label_post_to_followers">Seguidores</string>
+    <string name="label_post_to_public">Público</string>
+    <string name="label_post_location">Ubicación:</string>
+
+    <string name="label_items">publicaciones</string>
+    <string name="label_followers">seguidores</string>
+    <string name="label_followings">siguiendo</string>
+    <string name="label_likes">M gustas</string>
+    <string name="label_online">En línea</string>
+    <string name="label_offline">Desconectado</string>
+
+    <string name="label_to">a</string>
+
+    <string name="signup_label_1">Al hacer clic en Regístrate, acepta nuestros</string>
+    <string name="signup_label_terms_and_policies">términos y políticas</string>
+
+    <string name="settings_header_general">Generales</string>
+    <string name="settings_header_others">Otros</string>
+    <string name="settings_header_about">Acerca de</string>
+    <string name="settings_header_notifications">Notificación</string>
+
+    <string name="settings_notifications_likes">Me gusta</string>
+    <string name="settings_notifications_comments">Comentarios</string>
+    <string name="settings_notifications_followers">Seguidores</string>
+    <string name="settings_notifications_messages">Mensajes privados</string>
+    <string name="settings_notifications_comment_reply">Responder al comentario</string>
+
+    <string name="settings_version">Versión</string>
+    <string name="settings_logout">Cerrar sesión</string>
+    <string name="settings_copyright_info">Información sobre derechos de autor</string>
+    <string name="settings_contact_us">Contáctanos</string>
+    <string name="settings_contact_us_summary">Reportar un problema</string>
+    <string name="settings_web_site">Nuestra página web</string>
+    <string name="settings_view_blocked_list">Ver lista de bloqueados</string>
+    <string name="settings_deactivate_account">Desactivar cuenta</string>
+    <string name="settings_edit_account">Firma de tus secretos</string>
+    <string name="settings_thanks">Agradecimientos</string>
+    <string name="settings_terms">Términos de uso</string>
+    <string name="settings_change_password">Cambiar contraseña</string>
+    <string name="settings_services">Servicios</string>
+    <string name="settings_notifications">Notificaciones push</string>
+    <string name="settings_services_summary">Conéctate con cuentas de redes sociales</string>
+    <string name="settings_account_deactivation">Si desactivas tu cuenta, nunca podrás volver. Si quieres volver, deberás crear una nueva cuenta.</string>
+
+    <string name="settings_file">cuenta</string>
+    <string name="settings_account_id">ID de la cuenta</string>
+    <string name="settings_account_username">nombre de usuario</string>
+    <string name="settings_account_access_token">token de acceso</string>
+
+    <string name="page_1">Perfil</string>
+    <string name="page_2">Feed</string>
+    <string name="page_3">Transmisión</string>
+    <string name="page_4">Populares</string>
+    <string name="page_5">Amigos</string>
+    <string name="page_6">Notificaciones</string>
+    <string name="page_7">Mensajes</string>
+    <string name="page_8">Favoritos</string>
+    <string name="page_9">Mis comunidades</string>
+    <string name="page_10">Buscar</string>
+    <string name="page_11">Galería</string>
+
+    <string name="page_12">Invitados</string>
+    <string name="page_14">Actualizaciones</string>
+
+    <string name="drawer_open">Abrir</string>
+    <string name="drawer_close">Cerrar</string>
+
+    <string name="title_activity_login">Iniciar sesión</string>
+    <string name="title_activity_signup">Regístrate</string>
+    <string name="title_activity_main">Transmisión</string>
+    <string name="title_activity_recovery">Recuperación de contraseña</string>
+    <string name="title_activity_settings">Ajustes</string>
+    <string name="title_activity_web_view">Vista web</string>
+    <string name="title_activity_change_password">Cambiar contraseña</string>
+    <string name="title_activity_services">Servicios</string>
+    <string name="title_activity_new_item">Nueva publicación</string>
+    <string name="title_activity_view_item">Publicar</string>
+    <string name="title_activity_profile">Perfil</string>
+
+    <string name="hello_world">¡Hola, mundo!</string>
+    <string name="title_activity_search">Buscar</string>
+    <string name="title_activity_notifications">Notificaciones</string>
+    <string name="title_activity_photo_view">Foto</string>
+    <string name="title_activity_hashtags">Hashtags</string>
+    <string name="title_activity_followings">Siguiendo</string>
+    <string name="title_activity_followers">Seguidores</string>
+    <string name="title_activity_feeds">Feed</string>
+    <string name="title_activity_likes">Gente a la que le gusta esto</string>
+    <string name="title_activity_account_settings">Ajustes</string>
+    <string name="title_activity_report">Reportar</string>
+    <string name="title_activity_pro">ProActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hola, fragmento en blanco</string>
+    <string name="title_activity_black_list">Lista de bloqueados</string>
+    <string name="title_activity_dialogs">Mensajes</string>
+    <string name="title_activity_chat">Chat</string>
+    <string name="title_activity_notifications_settings">Notificaciones push</string>
+    <string name="title_activity_favorites">Favoritos</string>
+    <string name="title_activity_support">Contáctanos</string>
+    <string name="title_activity_location">Ubicación</string>
+    <string name="title_activity_edit_item">Editar</string>
+    <string name="title_activity_deactivate">Desactivar cuenta</string>
+    <string name="title_activity_repost">Compartir publicación</string>
+
+
+    <!-- added for version 1.6 -->
+
+    <string name="label_delete_photo_msg">¿Quieres eliminar esta foto?</string>
+    <string name="title_activity_new_photo">Nueva foto</string>
+    <string name="title_activity_galery">Galería</string>
+    <string name="msg_enter_photo">Por favor, selecciona una foto para publicar.</string>
+    <string name="label_photo_reported">Foto reportada.</string>
+    <string name="placeholder_photo">Comenta la foto…</string>
+    <string name="label_photos">fotos</string>
+
+
+    <!-- added for version 1.7-->
+
+    <string name="title_activity_group">Comunidad</string>
+    <string name="title_activity_groups">Comunidades</string>
+    <string name="action_create_group">Crear comunidad</string>
+    <string name="label_my_groups">Mis comunidades</string>
+    <string name="label_managed_groups">Comunidades administradas</string>
+    <string name="label_groups">Comunidades</string>
+    <string name="label_group">Comunidad</string>
+    <string name="label_group_category">Asunto de la comunidad</string>
+    <string name="label_group_name">Nombre</string>
+    <string name="label_group_link">Enlace de la comunidad (nombre corto)</string>
+    <string name="label_group_desc">Descripción de la comunidad</string>
+    <string name="label_group_location">Ubicación</string>
+    <string name="label_group_website">Sitio web</string>
+    <string name="label_group_founded">Fundado</string>
+    <string name="label_group_allow_posts">Todos los miembros de la comunidad pueden escribir publicaciones.</string>
+    <string name="label_group_allow_comments">Todos los miembros de la comunidad pueden dejar comentarios en las publicaciones.</string>
+    <string name="label_group_havent_items">La comunidad no tiene publicaciones.</string>
+    <string name="group_comments_disabled">Comentarios a publicaciones desactivados.</string>
+    <string name="label_group_search_results">Buscar comunidades:</string>
+    <string name="label_group_search_start_screen_msg">Buscar comunidades por nombre.</string>
+    <string name="label_search_group">Buscar comunidades</string>
+
+    <string name="msg_error_group_link">El nombre corto (enlace) del grupo ya está en uso o no coincide con el formato.</string>
+
+
+    <string name="title_activity_managed_groups">Comunidades administradas</string>
+    <string name="title_activity_new_group">Nueva comunidad</string>
+
+    <string name="group_category_1">Vacaciones de actividades</string>
+    <string name="group_category_2">Arte y cultura</string>
+    <string name="group_category_3">Autos/motos</string>
+    <string name="group_category_4">Belleza y moda</string>
+    <string name="group_category_5">Negocios</string>
+    <string name="group_category_6">Cine</string>
+    <string name="group_category_7">Cocina</string>
+    <string name="group_category_8">Citas y comunicación</string>
+    <string name="group_category_9">Diseño gráfico</string>
+    <string name="group_category_10">Educación</string>
+    <string name="group_category_11">Electrónica y electrodomésticos</string>
+    <string name="group_category_12">Entretenimiento</string>
+    <string name="group_category_13">Eróticos</string>
+    <string name="group_category_14">Esotéricos</string>
+    <string name="group_category_15">Familia</string>
+    <string name="group_category_16">Finanzas</string>
+    <string name="group_category_17">Comida</string>
+    <string name="group_category_18">Juegos</string>
+    <string name="group_category_19">Bienes y servicios</string>
+    <string name="group_category_20">Salud</string>
+    <string name="group_category_21">Aficiones</string>
+    <string name="group_category_22">Hogar y reformas</string>
+    <string name="group_category_23">Humor</string>
+    <string name="group_category_24">Industria</string>
+    <string name="group_category_25">Seguro</string>
+    <string name="group_category_26">TI (computadoras y software)</string>
+    <string name="group_category_27">Literatura</string>
+    <string name="group_category_28">Servicios móviles e internet</string>
+    <string name="group_category_29">Música</string>
+    <string name="group_category_30">Noticias y medios</string>
+    <string name="group_category_31">Mascotas</string>
+    <string name="group_category_32">Foto</string>
+    <string name="group_category_33">Política</string>
+    <string name="group_category_34">Bienes raíces</string>
+    <string name="group_category_35">Religión</string>
+    <string name="group_category_36">Ciencia y tecnología</string>
+    <string name="group_category_37">Seguridad</string>
+    <string name="group_category_38">Sociedad, humanidades</string>
+    <string name="group_category_39">Deportes</string>
+    <string name="group_category_40">Televisión</string>
+    <string name="group_category_41">Viajes</string>
+    <string name="group_category_42">Trabajo</string>
+
+
+    <!-- added for version 1.8-->
+
+
+    <string name="label_credits">Créditos</string>
+    <string name="label_credits_desc">Los créditos son una moneda virtual que puedes utilizar para habilitar actualizaciones y otras funciones.</string>
+
+    <string name="label_upgrades_ghost_mode">Modo fantasma</string>
+    <string name="label_upgrades_ghost_mode_desc">Explora perfiles de usuarios de forma anónima, los usuarios no recibirán ninguna notificación cada vez que visites su perfil</string>
+
+    <string name="label_upgrades_verified_badge">Insignia verificada</string>
+    <string name="label_upgrades_verified_badge_desc">Muéstrale a los demás que eres un usuario legítimo con esta increíble insignia</string>
+
+    <string name="label_upgrades_disable_ads">Desactivar anuncios</string>
+    <string name="label_upgrades_disable_ads_desc">¿Estás cansado de ver anuncios? ¡Desactívalos para que no aparezcan!</string>
+
+    <string name="title_activity_balance">Comprar créditos</string>
+
+    <string name="action_buy_credits">Obtener más créditos</string>
+    <string name="action_enable">Habilitar</string>
+
+    <string name="action_buy_iap1">Comprar 30 créditos ($1)</string>
+    <string name="action_buy_iap2">Comprar 70 créditos ($2)</string>
+    <string name="action_buy_iap3">Comprar 120 créditos ($3)</string>
+
+    <string name="label_ghost_mode_enabled">¡Modo fantasma habilitado!</string>
+    <string name="label_verified_badge_enabled">¡Insignia verificada habilitada!</string>
+    <string name="label_disable_ads_enabled">¡Anuncios desactivados!</string>
+
+    <string name="error_credits">¡Créditos insuficientes!</string>
+
+    <string name="msg_success_purchase">¡Compra realizada! ¡Felicidades!</string>
+    <string name="msg_success_ghost_mode">¡El modo fantasma se ha activado correctamente!</string>
+    <string name="msg_success_verified_badge">¡Insignia verificada activada correctamente!</string>
+    <string name="msg_success_disable_ads">¡Anuncios desactivados!</string>
+
+    <!-- added for version 1.9 -->
+
+    <!-- navDrawerItems and navDrawerIcons changed!!! -->
+
+    <string name="action_open_settings">
+    <u>Abrir ajustes de localización</u>
+  </string>
+    <string name="action_set_location">Si, esta es mi ubicación</string>
+    <string name="action_detail">Más detalles</string>
+    <string name="msg_location_error">No pudimos obtener tu ubicación.</string>
+
+    <string name="label_location_prompt">Permite el acceso a tu ubicación para habilitar otras funciones usando la ubicación.</string>
+
+    <string name="label_nearby">Cerca de ti</string>
+
+    <string name="title_dialog_nearby">Selecciona una distancia</string>
+
+    <string name="dialog_nearby_0">800 kilómetros</string>
+    <string name="dialog_nearby_1">1,600 kilómetros</string>
+    <string name="dialog_nearby_2">4,000 kilómetros</string>
+    <string name="dialog_nearby_3">8,000 kilómetros</string>
+    <string name="dialog_nearby_4">16,000 kilómetros</string>
+
+    <string name="page_15">Personas cercanas</string>
+
+    <!-- added for version 2.1 -->
+
+    <string name="action_buy">Comprar créditos</string>
+    <string name="action_credits_name">Créditos</string>
+    <string name="label_gifts">regalos</string>
+    <string name="error_action">¡Este usuario te ha prohibido hacerlo!</string>
+    <string name="placeholder_gift">Comenta el regalo…</string>
+    <string name="title_activity_select_gift">Elige un regalo</string>
+    <string name="title_activity_send_gift">Enviar regalo</string>
+    <string name="title_activity_gifts">Regalos de perfil</string>
+    <string name="msg_gift_sent">El regalo se ha enviado correctamente.</string>
+    <string name="label_gift_added">hizo un regalo.</string>
+    <string name="label_gcm_gift">Tienes un nuevo regalo.</string>
+    <string name="settings_notifications_gifts">Regalos</string>
+
+    <!-- added for version 2.2 -->
+
+    <string name="action_buy_sms">Comprar créditos con SMS</string>
+    <string name="action_buy_iap1_google_pay">Comprar 30 créditos ($1) con Google</string>
+    <string name="action_buy_iap2_google_pay">Comprar 70 créditos ($2) con Google</string>
+    <string name="action_buy_iap3_google_pay">Comprar 120 créditos ($3) con Google</string>
+
+    <!-- added for version 2.4 -->
+
+    <string name="label_sex">Género</string>
+    <string name="label_male">Masculino</string>
+    <string name="label_female">Femenino</string>
+    <string name="label_search_settings_dialog_title">Ajustes de búsqueda</string>
+    <string name="label_activity">Última vez activo</string>
+
+    <!-- added for version 2.6 -->
+
+    <string name="title_activity_gallery">Fotos de perfil</string>
+    <string name="title_activity_view_image">Imagen</string>
+    <string name="title_activity_likers">Gente a la que le gusta esto</string>
+    <string name="label_image_for_public">Público</string>
+    <string name="label_image_for_friends">Seguidores</string>
+    <string name="label_likes_image">le gusta tu foto.</string>
+    <string name="msg_comment_has_been_removed">El comentario ha sido eliminado.</string>
+    <string name="settings_allow_comments_to_photos">Permitir comentarios en mis fotos</string>
+
+    <!--not translate start-->
+    <string name="settings_account_lat">lat</string>
+    <string name="settings_account_lng">long</string>
+    <!--not translate end-->
+
+    <!-- added for version 2.8 -->
+
+    <string name="label_no_storage_permission">No se ha otorgado el permiso de almacenamiento</string>
+    <string name="label_no_location_permission">No se ha otorgado el permiso de localización</string>
+    <string name="label_grant_storage_permission">Abre Permisos y otorga el permiso de almacenamiento</string>
+    <string name="label_grant_location_permission">Abre Permisos y otorga el permiso de localización</string>
+    <string name="label_likes_video">le gusta tu vídeo.</string>
+
+    <string name="title_activity_video_gallery">Vídeos de perfil</string>
+    <string name="title_activity_view_video">Vídeo</string>
+    <string name="title_activity_new_video">Nuevo vídeo</string>
+    <string name="title_activity_video_view">Vídeo</string>
+
+    <string name="placeholder_video">Comenta el vídeo…</string>
+
+    <string name="label_videos">vídeos</string>
+    <string name="label_select_video">Seleccionar vídeo</string>
+    <string name="label_delete_video">¿Eliminar vídeo?</string>
+    <string name="label_video_reported">Vídeo reportado.</string>
+
+    <string name="msg_enter_video">Por favor, selecciona un vídeo para publicar.</string>
+    <string name="msg_video_too_large">El archivo es muy grande, límite de 100 MB</string>
+
+    <!-- added for version 3.0 -->
+
+    <string name="action_grant">Otorgar</string>
+    <string name="msg_location_permission_request">Por favor, otorga los permisos para usar tu ubicación.</string>
+
+    <!-- added for version 3.3 -->
+
+    <string name="label_profile_info_only_for_friends">La información del perfil está disponible solo para amigos.</string>
+    <string name="action_gift">Regalo</string>
+    <string name="action_message">Mensaje</string>
+    <string name="action_new_item">Nueva publicación</string>
+    <string name="action_repost">Volver a publicar</string>
+    <string name="label_sponsored">Patrocinado</string>
+    <string name="label_just_now">justo ahora</string>
+    <string name="msg_content_not_available">Contenido no disponible.</string>
+    <string name="msg_not_make_repost">No puedes volver a publicar tu propio elemento.</string>
+    <string name="msg_make_repost_success">Repost creado correctamente.</string>
+    <string name="msg_repost_exists">Ya has vuelto a publicar esta publicación.</string>
+
+    <!-- added for version 3.4 -->
+
+    <!-- not translate START -->
+    <string name="settings_account_allow_messages_gcm">allow_messages_gcm</string>
+    <string name="settings_account_allow_comments_gcm">allow_comments_gcm</string>
+    <string name="settings_account_allow_comments_reply_gcm">allow_comments_reply_gcm</string>
+    <!-- not translate END -->
+
+    <string name="title_activity_friends">Amigos del perfil</string>
+
+    <string name="label_friends">amigos</string>
+
+    <string name="label_gcm_friend_request">Tienes una nueva solicitud de amistad.</string>
+    <string name="label_gcm_friend_request_accepted">Solicitud de amistad aceptada.</string>
+
+    <string name="label_friend_request_dialog_title">Solicitud de amistad</string>
+
+    <string name="label_friend_request_added">te envió una solicitud de amistad.</string>
+
+    <string name="action_accept">Aceptar</string>
+    <string name="action_reject">Rechazar</string>
+    <string name="action_pending">Pendiente…</string>
+    <string name="action_add_to_friends">Añadir a amigos</string>
+    <string name="action_remove_from_friends">Eliminar de amigos</string>
+
+    <string name="title_activity_privacy_settings">Privacidad</string>
+    <string name="settings_privacy">Privacidad</string>
+
+    <string name="settings_privacy_info">Mostrar información de perfil solo a amigos</string>
+    <string name="settings_privacy_videos">Mostrar mis vídeos solo a amigos</string>
+    <string name="settings_privacy_friends">Mostrar mis amigos solo a amigos</string>
+    <string name="settings_privacy_photos">Mostrar mis fotos solo a amigos</string>
+    <string name="settings_privacy_gifts">Mostrar regalos solo a amigos</string>
+
+    <!-- added for version 3.4 -->
+
+    <string name="action_cancel_friends_request">Cancelar solicitud</string>
+    <string name="label_post_to_friends">Amigos</string>
+
+    <!-- added for version 3.6 -->
+
+    <string name="action_remove_all">Eliminar todos</string>
+
+    <!-- added for version 3.7 -->
+
+    <string name="title_activity_welcome">Bienvenido</string>
+    <string name="title_activity_referrals">Recomendaciones</string>
+
+    <string name="welcome_screen_1_title">¡Bienvenido!</string>
+    <string name="welcome_screen_2_title">Foto y vídeo</string>
+    <string name="welcome_screen_3_title">Quién está cerca</string>
+    <string name="welcome_screen_4_title">¡Gracias!</string>
+
+    <string name="welcome_screen_1_desc">¡Registro completado correctamente!</string>
+    <string name="welcome_screen_2_desc">¡Comparte fotos y vídeos!</string>
+    <string name="welcome_screen_3_desc">Busca amigos cercanos</string>
+    <string name="welcome_screen_4_desc">¡Gracias por elegirnos!</string>
+
+    <string name="action_next">Siguiente</string>
+    <string name="action_finish">Terminar</string>
+    <string name="action_skip">Omitir</string>
+
+    <string name="label_signup_invite">ID de usuario que te invitó (opcional)</string>
+    <string name="label_user_id">ID de usuario</string>
+
+    <string name="settings_view_referrals_list">Recomendaciones</string>
+
+    <string name="label_referrals_id">Tu ID de usuario:</string>
+    <string name="label_referrals_hint">¡Invita a tus amigos y obtén créditos!</string>
+    <string name="label_referrals_hint2">Las recomendaciones son personas que se registraron con tu invitación.</string>
+
+    <!-- added for version 3.8 -->
+
+    <string-array name="navDrawerItems">
+        <item>Perfil</item>
+        <item>Galería</item>
+        <item>Feed</item>
+        <item>Transmisión</item>
+        <item>Populares</item>
+        <item>Amigos</item>
+        <item>Notificaciones</item>
+        <item>Mensajes</item>
+        <item>Favoritos</item>
+        <item>Invitados</item>
+        <item>Comunidades</item>
+        <item>Actualizaciones</item>
+        <item>Personas cercanas</item>
+        <item>Mercado</item>
+        <item>Buscar</item>
+        <item>Ajustes</item>
+    </string-array>
+
+    <string-array name="navDrawerIcons">
+        <item>\@drawable/ic_action_profile</item>
+        <item>\@drawable/ic_action_gallery</item>
+        <item>\@drawable/ic_action_feed</item>
+        <item>\@drawable/ic_action_stream</item>
+        <item>\@drawable/ic_action_popular</item>
+        <item>\@drawable/ic_action_friends</item>
+        <item>\@drawable/ic_action_notifications</item>
+        <item>\@drawable/ic_action_messages</item>
+        <item>\@drawable/ic_action_favorites</item>
+        <item>\@drawable/ic_action_guests</item>
+        <item>\@drawable/ic_action_groups</item>
+        <item>\@drawable/ic_action_upgrade</item>
+        <item>\@drawable/ic_action_nearby</item>
+        <item>\@drawable/ic_action_market</item>
+        <item>\@drawable/ic_action_search</item>
+        <item>\@drawable/ic_action_settings</item>
+    </string-array>
+
+    <string name="page_16">Mercado</string>
+    <string name="title_activity_market">Mercado</string>
+    <string name="title_activity_market_new_item">Nuevo elemento</string>
+    <string name="title_activity_market_view_item">Ver elemento</string>
+    <string name="title_activity_market_my_items">Mis elementos</string>
+
+    <string name="action_market_my_items">Mostrar mis elementos</string>
+
+    <string name="label_currency">$</string>
+    <string name="label_market_search_start_screen_msg">Busca elementos por título, contenido o descripción.</string>
+    <string name="label_view_author_profile">Ver perfil</string>
+    <string name="label_item_delete_msg">¿Quieres eliminar este elemento?</string>
+
+    <string name="label_item_title_placeholder">Título</string>
+    <string name="label_item_price_placeholder">Precio</string>
+    <string name="label_item_description_placeholder">Descripción</string>
+    <string name="label_market_results_error">No se encontró ningún elemento</string>
+    <string name="label_market_search_results">Buscar elementos:</string>
+
+    <string name="msg_item_select_img">¡No seleccioneste ninguna imagen!</string>
+    <string name="msg_item_select_title">¡Ingresa el texto del título!</string>
+    <string name="msg_item_select_description">¡Ingresa el texto de la descripción!</string>
+    <string name="msg_item_select_price">¡Ingresa tu precio!</string>
+
+    <!-- added for version 4.1 -->
+
+    <string name="label_typing">escribiendo...</string>
+    <string name="label_chat_media">Medios</string>
+    <string name="label_chat_stickers">Stickers</string>
+
+    <string name="channel_name">Mi red</string>
+
+    <!-- added for version 4.2 -->
+
+    <!-- not translate START -->
+    <string name="settings_balance">settings_balance</string>
+    <string name="settings_ads_mode">settings_ads_mode</string>
+    <string name="settings_ghost_mode">settings_ghost_mode</string>
+    <string name="settings_verified_barge">settings_verified_barge</string>
+    <string name="settings_account_fullname">settings_account_fullname</string>
+    <string name="settings_account_photo_url">settings_account_photo_url</string>
+    <!-- not translate END -->
+
+    <!-- added for version 4.3 -->
+
+    <string name="title_activity_view_youtube_video">Vídeo de Youtube</string>
+    <string name="youtube_player_error">Error al inicializar el reproductor de YouTube: %s</string>
+    <string name="label_only_with_photo">Solo con foto</string>
+    <string name="label_additional">Adicional</string>
+    <string name="title_dialog_nearby_sex">Selecciona un sexo</string>
+    <string name="label_gender_any">Ninguno</string>
+    <string name="action_nearby_sex_settings">Elección de sexo</string>
+
+    <string name="label_multi_account_msg">¡No puedes crear múltiples cuentas!</string>
+
+    <!-- not translate START -->
+    <string name="settings_pro_mode">settings_pro_mode</string>
+    <!-- not translate END -->
+
+
+    <!-- added for version 4.6 -->
+    <string name="label_updated_profile_photo">foto de perfil actualizada.</string>
+    <string name="label_updated_cover_photo">imagen de portada actualizada.</string>
+
+    <string name="msg_success_rewarded">¡Felicidades! ¡La recompensa por ver anuncios se acredita a tu saldo!</string>
+
+    <string name="action_view_rewarded_video_ad">Obtén recompensas por ver anuncios</string>
+
+    <string name="action_profile_edit_feeling">Establecer estado de ánimo</string>
+    <string name="title_activity_feelings">Sentimientos</string>
+    <string name="label_item_feeling">está sientiendo</string>
+    <string name="label_feeling">Sentimiento</string>
+    <string name="action_select_feeling">Seleccionar sentimiento</string>
+
+    <string name="msg_system_post">No puedes editar publicaciones estándar creadas por el sistema</string>
+
+    <string name="settings_notifications_friends_requests">Solicitudes de amistad</string>
+
+    <!-- added for version 4.7 -->
+    <string name="action_see_all">Ver todo</string>
+    <string name="action_find_friends">Buscar amigos</string>
+
+    <string name="nav_view_open" translatable="false">Open navigation drawer</string>
+    <string name="nav_view_close" translatable="false">Close navigation drawer</string>
+
+    <!-- DO NOT TRANSLATE START -->
+    <string name="default_notification_channel_id" translatable="false">my_channel_01</string>
+    <!-- DO NOT TRANSLATE END-->
+
+    <!-- Fro 4.8 -->
+
+    <string name="tab_feed">Feed</string>
+    <string name="tab_groups">Comunidades</string>
+    <string name="tab_managed_groups">Comunidades administradas</string>
+    <string name="tab_profile">Perfil</string>
+    <string name="tab_notifications">Notificaciones</string>
+    <string name="tab_messages">Mensajes</string>
+    <string name="tab_menu">Menú</string>
+    <string name="tab_upgrades">Actualizaciones</string>
+    <string name="tab_favorites">Favoritos</string>
+    <string name="tab_guests">Invitados</string>
+    <string name="tab_friends">Amigos</string>
+    <string name="tab_gallery">Galería</string>
+    <string name="tab_nearby">Personas cercanas</string>
+    <string name="tab_stream">Transmisión</string>
+    <string name="tab_settings">Ajustes</string>
+    <string name="tab_market">Mercado</string>
+    <string name="tab_my_products">Mis productos</string>
+    <string name="tab_popular">Populares</string>
+
+    <string name="nav_feed">@string/tab_feed</string>
+    <string name="nav_groups">@string/tab_groups</string>
+    <string name="nav_managed_groups">@string/tab_managed_groups</string>
+    <string name="nav_profile">@string/tab_profile</string>
+    <string name="nav_notifications">@string/tab_notifications</string>
+    <string name="nav_messages">@string/tab_messages</string>
+    <string name="nav_menu">@string/tab_menu</string>
+    <string name="nav_upgrades">@string/tab_upgrades</string>
+    <string name="nav_favorites">@string/tab_favorites</string>
+    <string name="nav_guests">@string/tab_guests</string>
+    <string name="nav_friends">@string/tab_friends</string>
+    <string name="nav_gallery">@string/tab_gallery</string>
+    <string name="nav_nearby">@string/tab_nearby</string>
+    <string name="nav_stream">@string/tab_stream</string>
+    <string name="nav_settings">@string/tab_settings</string>
+    <string name="nav_market">@string/tab_market</string>
+    <string name="nav_my_products">@string/tab_my_products</string>
+    <string name="nav_popular">@string/tab_popular</string>
+
+    <string name="title_activity_upgrades">Actualizaciones</string>
+    <string name="title_activity_stream">Transmisión</string>
+    <string name="title_activity_guests">Invitados</string>
+    <string name="title_activity_nearby">Cercanos</string>
+    <string name="title_activity_popular">Populares</string>
+
+    <string name="placeholder_toolbar_search">Buscar</string>
+
+    <string name="label_messenger">Messenger</string>
+
+    <string name="action_profile_more">Más</string>
+    <string name="action_group_join">Únete al grupo</string>
+    <string name="action_group_leave">Salir del grupo</string>
+
+    <string name="msg_action_logout">¿Seguro que quieres cerrar la sesión?</string>
+    <string name="msg_new_item_promo">%s, ¿qué pasa? ¡Comparte tus ideas ahora!</string>
+    <string name="msg_new_item_promo_2">¡Crea una nueva publicación ahora mismo! ¡Comparte tus ideas, impresiones y <phot/>os!</string>
+    <string name="msg_search_friends_promo">%s, ¡mira quién está cerca de ti! ¡Busca a tus amigos ahora mismo!</string>
+
+    <string name="label_feed_desc">Noticias de tus amigos y comunidades.</string>
+    <string name="label_friends_desc">Haz una lista de tus amigos.</string>
+
+
+    <!-- For version 4.9 -->
+
+    <string name="action_back">Atrás</string>
+    <string name="action_choose_photo">Elige una foto</string>
+    <string name="action_choose_age">Edad</string>
+    <string name="action_choose_gender">Género</string>
+    <string name="action_grant_access">Otorgar acceso</string>
+    <string name="action_grant_access_success">Acceso otorgado</string>
+    <string name="action_get_balance">Comprar créditos</string>
+
+    <string name="register_screen_2_msg">Por favor, selecciona una foto para tu perfil.</string>
+    <string name="register_screen_2_title">Tu foto</string>
+    <string name="register_screen_2_subtitle">¡Sé creativo al elegir una foto!</string>
+
+    <string name="register_screen_3_msg">Especifica el género y la edad.</string>
+    <string name="register_screen_3_title">Género y edad</string>
+    <string name="register_screen_3_subtitle">Especifica el género y la edad</string>
+
+    <string name="register_screen_4_title">Personas cercanas</string>
+    <string name="register_screen_4_subtitle">Para acceder a algunas funciones, la aplicación necesita permiso para usar tu ubicación.</string>
+
+    <string name="label_secret">Secreta</string>
+    <string name="label_unknown">Desconocida</string>
+    <string name="label_sex_secret">El género es secreto</string>
+    <string name="label_sex_unknown">El género es desconocido</string>
+
+    <string name="label_register_terms">Al hacer clic en Continuar, aceptas nuestros</string>
+
+    <string name="msg_account_deactivated">Esta cuenta es desactivada por el usuario.</string>
+
+    <string name="dlg_delete_location_title">Ubicación</string>
+    <string name="dlg_delete_location_subtitle">¿Eliminar la ubicación?</string>
+
+    <string name="dlg_delete_feeling_title">Sentimiento</string>
+    <string name="dlg_choice_image_title">Elegir imagen</string>
+    <string name="dlg_choice_gift_title">Regalos</string>
+    <string name="dlg_choice_feeling_title">Sentimientos</string>
+
+    <string name="title_edit_item">Editar elemento</string>
+    <string name="title_new_item">Nuevo elemento</string>
+
+    <string name="action_add_location">Añadir dirección</string>
+    <string name="action_add_image">Añadir imagen/foto</string>
+    <string name="action_add_video">Añadir vídeo</string>
+    <string name="action_add_feeling">Establecer sentimiento</string>
+
+    <string name="action_view_repost">Ver repost</string>
+
+    <string name="image_of">%1$d de %2$d</string>
+    <string name="price_of">%d créditos</string>
+    <string name="images_limit_of">Has alcanzado el límite. No más de %d imágenes por publicación.</string>
+    <string name="video_limit_of">Has alcanzado el límite. No más de %d archivos de vídeo por publicación.</string>
+    <string name="account_balance_label">Tu saldo es de %d créditos</string>
+
+    <string name="label_empty_comments_list">Aún no hay comentarios.</string>
+
+    <string name="label_profile_photo_rejected_new">%s rechazó tu foto de perfil. Subir/cambiar foto de perfil.</string>
+    <string name="label_profile_cover_rejected_new">%s rechazó tu portada de perfil. Subir/cambiar portada del perfil.</string>
+
+    <string name="label_gcm_profile_photo_reject">Tu foto de perfil ha sido rechazada.</string>
+    <string name="label_gcm_profile_cover_reject">Tu portada de perfil ha sido rechazada.</string>
+
+
+    <!-- For version 5.0 -->
+
+    <!-- not translate START -->
+    <string name="settings_account_allow_gifts_gcm" translatable="false">allow_gifts_gcm</string>
+    <string name="settings_account_allow_likes_gcm" translatable="false">allow_likes_gcm</string>
+    <string name="settings_account_allow_friends_requests_gcm" translatable="false">allow_friends_requests_gcm</string>
+    <!-- not translate END -->
+
+    <string name="settings_privacy_gallery">Mostrar mi galería solo a amigos</string>
+    <string name="settings_allow_comments_to_gallery_items">Permitir comentarios en mi galería</string>
+
+    <string name="label_delete_item_msg">¿Quieres eliminar este elemento?</string>
+    <string name="label_item_reported">Elemento reportado.</string>
+    <string name="title_activity_new_gallery_item">Nuevo elemento de la galería</string>
+
+    <!-- For version 5.1 -->
+
+    <string name="title_activity_balance_history">Historial de saldo</string>
+    <string name="settings_view_balance_history">Historial de saldo</string>
+    <string name="settings_view_balance">Saldo</string>
+
+    <string name="label_payments_credits_stripe">Comprar créditos con Stripe</string>
+    <string name="label_payments_credits_android">Comprar créditos con compras en la aplicación de Android</string>
+    <string name="label_payments_credits_ios">Comprar créditos con compras en la aplicación de iOS</string>
+    <string name="label_payments_credits_admob">Créditos por ver anuncios</string>
+    <string name="label_payments_send_gift">Envío de regalos</string>
+    <string name="label_payments_verified_badge">Activar la función de insignia verificada</string>
+    <string name="label_payments_ghost_mode">Activar el modo fantasma</string>
+    <string name="label_payments_off_admob">Desactivar anuncios de Admob en la aplicación</string>
+    <string name="label_payments_registration_bonus">Bonifiicación de registro</string>
+    <string name="label_payments_referral_bonus">Bonifiicación de recomendación</string>
+
+    <!-- for photo editor -->
+    <string name="label_brush">Pincel</string>
+    <string name="label_emoji">Emoji</string>
+    <string name="label_sticker">Sticker</string>
+    <string name="label_eraser">Borrador</string>
+    <string name="label_eraser_mode">Modo de borrador</string>
+    <string name="label_text">Texto</string>
+    <string name="label_filter">Filtrar</string>
+    <string name="label_adjust">Ajustar</string>
+    <string name="msg_save_image">¿Quieres salir sin guardar la imagen?</string>
+    <string name="app_intent_name">Editor de fotos</string>
+    <string name="msg_save_image_to_share">Por favor, guarda la imagen para compartir</string>
+    <string name="msg_share_image">Compartir imagen</string>
+    <string name="like">Me gusta</string>
+    <string name="comment">Comentario</string>
+    <string name="share">Compartir</string>
+    <string name="views">vistas</string>
+    <string name="photo">Foto</string>
+    <string name="video">Vídeo</string>
+    <string name="test">prueba</string>
+
+</resources>

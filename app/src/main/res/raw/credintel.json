@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "yavedo-social",
+  "private_key_id": "7899710186b2cf21ece588bd257131861b3ab266",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDhpDSU2xvy4F7+\nBY7Y7g/GwI//e+fY7yYAoI7VLfz7Od1uBKurDyPQivwzF9GyGFF5B7/nRdFPcRUr\n5QCWKxpYj+MLk5nSd1lX6Tn6SIKLt5JdX9JiNfNltxQ0xSknzxTXXrd0Z4LYBZ3b\nrFNJZyU95icFbY2GXeYrbaxBcYt+rfKjy0W7j+iQPMiQlCymmU2Q2XnHjsE/PGtN\n5pN2RcTMmc2765JoQwdzgqBtO1QS3Y5lt1dAuavkIe5XorHeHjXqsFTIwmBa+6BU\nQ8LpLw2wPPa/tFaK3nw6+a8NRX3q83nf/yr0lQ1bzROF4796C1U2R/kxtiuNR9UM\nI4bGvR9BAgMBAAECgf8B8kPFoNU5sPzx2pSvMyYwmfV/AYstv6mFAZOCTnRSgUQV\n+pfKAiXDKgLHuzX90h0HVqTBnZncy6iFHSrvNQI5LYfy/F5LL9xuMnkPpElPJute\nYDfUVjm9pr28fnvWyv5bE/rnEHHIaOaqTc75fXrVq/a5lem8SYmuK/z5dEIQNGwG\n3gZT0k6wVT+fbXFiGM39JZT9i/P0QdetA4XcwzrvItBTNRVFUmGRGG1Lp4UqbrMj\ndzblbAF0Z6A/GvbsWKgFcZIs2cOai3RlMw85s3R6r68Jjm1QHdgd0sK6fZLMS+mp\nuii3gVJE33uSJRtuVRXun7TCgWSKWfmFJnkc5cUCgYEA+TTa3hoAOV4CJotOMOun\njJHkft4EvCf8pnKW2YNA8i7zPS7gHCODEgduJyxOoZ2llyDs8c519BE4l1ryRw2w\npsfMorNI62/p9kz3IdhiszrbmAvJqEHOQGtyMq64ninXniyLa3Uf6vrKRAFv1NwI\n45/VXr3nCByVryTHbIdYcd0CgYEA58rleKpbSFsm7FQH44QoaxZpX2fQN4XStrif\nkj4OdL03ivnrrGRRNBlFErwhwod2qRh3NnqZ8PuSP9cS2D636vyermawmoAUwZB/\nBs4BZsu2AkIjtCs4NvwJ5GUVaBBntagwQCz3d3cL4HlBWdDg0KcudYhxIn1o6cSR\nAobwNrUCgYBlUYTuqdmPeVYcf6SxpQ3AzAv/PJrmOMeykIIeOwvrqwT/yhAZwKJo\ncRbq3Eu3z5VkZWGQSiWQrnO4raQ1GS7KEA910riB6EVR+ya63vP59KMVJS2+t8p4\nTHbofjrXKyHb0DZ64OqyKXaUwZTLEQ6YJQKl+0Vz+dMtmyFtUXW3DQKBgQDdPDM5\nsJ/ft+C2wJ2m8oUBcSqx/QwncntkG2Ny2fhCRDe3VkMzD6zR5SygbSBr44/GZauj\nO/GiqPs2I7nA3Fv+1Y8/NpRpYsZs2dXkUMvVqanXDfm2BWpqULXAYRrFcKMMJ7Om\nDUVFqUKUxicx6sQpYuhdFhWlrb1tIkil+NVd4QKBgQDpl6O6sdqJ5dvLreSPGSzj\nOljbQacGc+baWvyJZcJf0QpkMlk1IOCdCLvbkNvEmfLTtEWIfPOJ9fqe9sL6K6L8\nP2SucFd41U32G+3RQZMiJIS5gBq9L6l8LH/y80s9nD1wKSK3AptoDRfRVGc5GQza\n44TSfbUjLal0/rO0/+6lyw==\n-----END PRIVATE KEY-----\n",
+  "client_email": "yavedo@yavedo-social.iam.gserviceaccount.com",
+  "client_id": "118088684778792702398",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/yavedo%40yavedo-social.iam.gserviceaccount.com"
+}

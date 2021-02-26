@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "45848385224",
+    "firebase_url": "https://yavedo-social-media.firebaseio.com",
+    "project_id": "yavedo-social-media",
+    "storage_bucket": "yavedo-social-media.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:45848385224:android:6c4e0cee40c66b011877fd",
+        "android_client_info": {
+          "package_name": "com.yavedo.network"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "45848385224-g39hmrmgt9j7kt403l23mcqce7b019m5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAikRjvlFomLFWGYJ124Of1m3b7EqnDSKw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "45848385224-g39hmrmgt9j7kt403l23mcqce7b019m5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
