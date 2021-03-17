@@ -97,6 +97,7 @@ import java.util.Objects;
 import java.util.UUID;
 import java.util.concurrent.TimeUnit;
 
+import cn.pedant.SweetAlert.SweetAlertDialog;
 import github.ankushsachdeva.emojicon.EditTextImeBackListener;
 import github.ankushsachdeva.emojicon.EmojiconEditText;
 import github.ankushsachdeva.emojicon.EmojiconGridView;
@@ -1749,6 +1750,7 @@ public class ChatFragment extends Fragment implements Constants {
         if (App.getInstance().isConnected()) {
 
             messageText = mMessageText.getText().toString();
+            Log.v("ttt",messageText);
             messageText = messageText.trim();
 
             if (selectedChatImg.length() != 0) {
@@ -2185,8 +2187,19 @@ public class ChatFragment extends Fragment implements Constants {
 
             case R.id.action_chat_delete: {
 
-                deleteChat();
-
+                SweetAlertDialog sweetAlertDialog = new SweetAlertDialog(requireActivity(),SweetAlertDialog.WARNING_TYPE);
+                sweetAlertDialog.setTitleText("Remove chat");
+                sweetAlertDialog.setContentText("This will delete all messages on both sides\n" +
+                        "Are you sure to remove this chat?");
+                sweetAlertDialog.setConfirmButton(R.string.action_yes,sweetAlertDialog1 -> {
+                    sweetAlertDialog.dismissWithAnimation();
+                    deleteChat();
+                });
+                sweetAlertDialog.setCancelButton(R.string.action_cancel,sweetAlertDialog1 -> {
+                   sweetAlertDialog.dismissWithAnimation();
+                });
+                sweetAlertDialog.create();
+                sweetAlertDialog.show();
                 return true;
             }
 

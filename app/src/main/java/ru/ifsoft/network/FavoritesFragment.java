@@ -1,4 +1,4 @@
-package ru.ifsoft.network;
+ package ru.ifsoft.network;
 
 import android.app.Activity;
 import android.app.Dialog;

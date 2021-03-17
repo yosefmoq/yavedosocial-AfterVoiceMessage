@@ -67,8 +67,8 @@ public class ChatListAdapter extends BaseAdapter implements Constants {
     private static String convertSecondsToHMmSs(long seconds) {
         long s = seconds % 60;
         long m = (seconds / 60) % 60;
-        long h = (seconds / (60 * 60)) % 24;
-        return String.format("%02d:%02d:%02d", h, m, s);
+//        long h = (seconds / (60 * 60)) % 24;
+        return String.format("%02d:%02d",  m, s);
     }
 
     @Override
@@ -567,7 +567,7 @@ public class ChatListAdapter extends BaseAdapter implements Constants {
                     public void onPrepared(MediaPlayer mp) {
                         seekBar.setMax(mp.getDuration());
 
-                        txtProcess.setText("00:00:00/" + convertSecondsToHMmSs(mp.getDuration() / 1000));
+                        txtProcess.setText("00:00/" + convertSecondsToHMmSs(mp.getDuration() / 1000));
                     }
                 });
 

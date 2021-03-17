@@ -129,6 +129,7 @@
             android:screenOrientation="portrait"
             android:name=".MainActivity"
             android:configChanges="orientation"
+
             android:label="@string/title_activity_feeds" >
 
             <intent-filter>
