@@ -122,7 +122,7 @@ public class AdvancedItemListAdapter extends RecyclerView.Adapter<AdvancedItemLi
 
     public static int hashTagHyperLinkDisabled = 0;
 
-    public static final String HASHTAGS_COLOR = "#5BCFF2";
+    public static final String HASHTAGS_COLOR = "#8eb927";
 
     ImageLoader imageLoader = App.getInstance().getImageLoader();
 

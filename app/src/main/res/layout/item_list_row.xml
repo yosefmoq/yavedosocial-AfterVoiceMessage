@@ -264,7 +264,7 @@
                     android:padding="@dimen/spacing_middle"
                     android:text="Content"
                     android:textColor="@color/black"
-                    android:textColorLink="#5bcff2"
+                    android:textColorLink="@color/colorPrimary"
                     android:textSize="18sp" />
 
                 <RelativeLayout
@@ -678,7 +678,7 @@
                         android:padding="@dimen/spacing_middle"
                         android:text="Content"
                         android:textColor="@color/black"
-                        android:textColorLink="#5bcff2"
+                        android:textColorLink="@color/colorPrimary"
                         android:textSize="16dp" />
 
                     <LinearLayout

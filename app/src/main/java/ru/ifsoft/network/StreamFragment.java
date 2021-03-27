@@ -227,7 +227,7 @@ public class StreamFragment extends Fragment implements Constants, SwipeRefreshL
         if (!restore) {
 
             showMessage(getText(R.string.msg_loading_2).toString());
-
+            mSplash.setVisibility(View.INVISIBLE);
             getItems();
         }
 

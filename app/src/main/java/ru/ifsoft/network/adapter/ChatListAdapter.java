@@ -11,6 +11,8 @@ import android.media.MediaPlayer;
 import android.os.AsyncTask;
 import android.os.Handler;
 import android.os.Looper;
+import android.text.method.LinkMovementMethod;
+import android.text.util.Linkify;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -322,6 +324,9 @@ public class ChatListAdapter extends BaseAdapter implements Constants {
             }
 
             viewHolder.mRight_Message.setText(chatItem.getMessage().replaceAll("<br>", "\n"));
+            viewHolder.mRight_Message.setMovementMethod(LinkMovementMethod.getInstance());
+            Linkify.addLinks(viewHolder.mRight_Message,Linkify.ALL);
+
 
             if (chatItem.getSeenAt() > 0) {
 
@@ -465,6 +470,8 @@ public class ChatListAdapter extends BaseAdapter implements Constants {
             }
 
             viewHolder.mLeft_Message.setText(chatItem.getMessage().replaceAll("<br>", "\n"));
+            viewHolder.mLeft_Message.setMovementMethod(LinkMovementMethod.getInstance());
+            Linkify.addLinks(viewHolder.mLeft_Message,Linkify.ALL);
             viewHolder.mLeft_TimeAgo.setText(chatItem.getTimeAgo());
 
             viewHolder.mLeft_Message.setOnLongClickListener(new View.OnLongClickListener() {
